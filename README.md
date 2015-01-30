@@ -4,7 +4,7 @@ After compiling GNS3 from source (because there aren't any up-to-date repos or r
 
 To install GNS3 with GUI you will need to execute all given scripts, as root.
 
-Installation steps:
+Installation steps
 -------------------
 
 The first script, installs dynamips:
@@ -35,7 +35,7 @@ The last and optional script, installs a shotcut:
 </code>
 </pre>
 
-Missing features:
+Missing features
 -----------------
 * Uninstaller
 * "AIO" script
