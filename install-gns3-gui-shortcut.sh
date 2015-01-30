@@ -25,3 +25,4 @@ Exec=/usr/bin/gns3 %f
 Terminal=false
 MimeType=application/vnd.tcpdump.pcap;application/x-pcapng;application/x-snoop;application/x-iptrace;application/x-lanalyzer;application/x-nettl;application/x-radcom;application/x-etherpeek;application/x-visualnetworks;application/x-netinstobserver;application/x-5view;
 Categories=Application;Network;" > /usr/share/applications/gns3.desktop
+

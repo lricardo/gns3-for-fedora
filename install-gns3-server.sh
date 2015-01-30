@@ -19,6 +19,7 @@ pip3 install netifaces
 #Clone GitHub repository
 mkdir -p /tmp/build-gns3-server
 cd /tmp/build-gns3-server
+
 git clone https://github.com/GNS3/gns3-server.git
 cd gns3-server
 

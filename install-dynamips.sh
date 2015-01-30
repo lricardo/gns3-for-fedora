@@ -33,5 +33,3 @@ make install
 
 # Remove folder
 rm -rf /tmp/build-dynamips
-
-echo "Done"

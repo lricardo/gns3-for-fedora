@@ -1,4 +1,4 @@
-# GNS3 Installer Script for Fedora
+# GNS3 Installer Script for Fedora - Alpha
 
 After compiling GNS3 from source (because there aren't any up-to-date repos or rpms for Fedora), I've built a set of basic scripts to automatize the installation process.
 
