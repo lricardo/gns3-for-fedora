@@ -2,7 +2,10 @@
 
 After compiling GNS3 from source (because there aren't any up-to-date repos or rpms for Fedora), I've built a set of basic scripts to automatize the installation process.
 
-To install GNS3 with GUI you will need to execute all given scripts, as root-
+To install GNS3 with GUI you will need to execute all given scripts, as root.
+
+Installation steps:
+-------------------
 
 The first script, installs dynamips:
 <pre>
@@ -34,5 +37,5 @@ The last and optional script, installs a shotcut:
 
 Missing features:
 -----------------
-* Unninstaller
-* One "AIO" script
+* Uninstaller
+* "AIO" script
