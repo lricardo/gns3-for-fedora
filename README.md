@@ -30,7 +30,7 @@ The third script, installs GNS3-gui:
 </code>
 </pre>
 
-The last and optional script, installs a shotcut:
+The last and optional script, installs a shortcut:
 <pre>
 <code>
 ./install-gns3-gui-shortcut.sh 
