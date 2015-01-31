@@ -1,4 +1,4 @@
-# GNS3 Installer Script for Fedora - Alpha
+# GNS3 Installer Script for Fedora - Beta
 
 After compiling GNS3 from source (because there aren't any up-to-date repos or rpms for Fedora), I've built a set of basic scripts to automatize the installation process.
 
@@ -34,6 +34,20 @@ The last and optional script, installs a shotcut:
 ./install-gns3-gui-shortcut.sh 
 </code>
 </pre>
+
+VPCS
+----
+For those who need VPCS, my solution was to install the package in /opt/vpcs - because it's optional software and it's easy to maintain.
+
+You need to configure GNS3 to the following path:
+
+<pre>
+<code>
+/opt/vpcs/src
+</code>
+</pre>
+
+
 
 Missing features
 -----------------
