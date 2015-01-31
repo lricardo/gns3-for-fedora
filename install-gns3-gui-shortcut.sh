@@ -7,6 +7,11 @@ if [[ $USER != "root" ]]; then
 	exit 1
 fi
 
+#Install dependencies
+yum -y update
+yum -y install wget
+
+#Start
 cd /tmp
 
 #Download file from the official website

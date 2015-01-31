@@ -11,6 +11,7 @@ yum update
 
 #Install gns3-server dependencies
 yum -y install python3-PyQt4
+yum -y install pycryptopp
 
 #Clone GitHub repository
 mkdir -p /tmp/install-gns3-gui

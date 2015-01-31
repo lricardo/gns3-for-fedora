@@ -11,6 +11,7 @@ fi
 yum -y update
 
 # Install dynamips dependencies
+yum -y install gcc
 yum -y install cmake
 yum -y install elfutils-libelf-devel
 yum -y install libuuid-devel
