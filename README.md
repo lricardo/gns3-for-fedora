@@ -2,6 +2,15 @@
 
 Tested and working on Fedora 22!
 
+What's included
+---------------
+* Dynamips
+* gns3-server
+* gns3-gui
+* vpcs
+* iouyap
+* GUI shortcut
+
 Installation steps
 ------------------
 #####AIO (GNS3 full installation)
@@ -24,4 +33,3 @@ You need to configure GNS3 to the following path:
 Missing features
 -----------------
 * Uninstaller
-* iouyap
