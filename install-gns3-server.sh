@@ -8,12 +8,12 @@ if [[ $USER != "root" ]]; then
 fi
 
 #Update system
-yum update
+dnf update
 
 #Install gns3-server dependencies
-yum -y install python3
-yum -y install python3-devel
-yum -y install python3-zmq
+dnf -y install python3
+dnf -y install python3-devel
+dnf -y install python3-zmq
 pip3 install netifaces
 
 #Clone GitHub repository

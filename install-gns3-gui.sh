@@ -7,11 +7,11 @@ if [[ $USER != "root" ]]; then
 fi
 
 #Update system
-yum update
+dnf update
 
 #Install gns3-server dependencies
-yum -y install python3-PyQt4
-yum -y install pycryptopp
+dnf -y install python3-PyQt4
+dnf -y install pycryptopp
 
 #Clone GitHub repository
 mkdir -p /tmp/install-gns3-gui

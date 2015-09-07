@@ -8,11 +8,11 @@ if [[ $USER != "root" ]]; then
 fi
 
 # Update system
-yum -y update
+dnf -y update
 
 # Install dynamips dependencies
-yum -y install glibc-static
-yum -y install xterm
+dnf -y install glibc-static
+dnf -y install xterm
 
 # Create a temporary folder on /tmp
 cd /opt/

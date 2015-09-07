@@ -8,14 +8,14 @@ if [[ $USER != "root" ]]; then
 fi
 
 # Update system
-yum -y update
+dnf -y update
 
 # Install dynamips dependencies
-yum -y install gcc
-yum -y install cmake
-yum -y install elfutils-libelf-devel
-yum -y install libuuid-devel
-yum -y install libpcap-devel
+dnf -y install gcc
+dnf -y install cmake
+dnf -y install elfutils-libelf-devel
+dnf -y install libuuid-devel
+dnf -y install libpcap-devel
 
 # Create a temporary folder on /tmp
 mkdir -p /tmp/build-dynamips

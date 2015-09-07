@@ -8,8 +8,8 @@ if [[ $USER != "root" ]]; then
 fi
 
 #Install dependencies
-yum -y update
-yum -y install wget
+dnf -y update
+dnf -y install wget
 
 #Start
 cd /tmp
