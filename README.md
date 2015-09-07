@@ -16,8 +16,8 @@ Installation steps
 #####AIO (GNS3 full installation)
 
 ```bash
-$ git clone https://github.com/lricardo/gns3-fedora-installer-script.git
-$ cd gns3-fedora-installer-script.git
+$ git clone https://github.com/lricardo/gns3-for-fedora.git
+$ cd gns3-for-fedora
 $ ./aio-install.sh
 ```
 About VPCS
