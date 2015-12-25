@@ -11,7 +11,9 @@ dnf update
 
 #Install gns3-server dependencies
 dnf -y install python3-PyQt4
-dnf -y install pycryptopp
+#dnf -y install pycryptopp
+dnf install python3-pip
+python3 -m pip install pycrypto
 
 #Clone GitHub repository
 mkdir -p /tmp/install-gns3-gui
