@@ -10,10 +10,16 @@ fi
 dnf update
 
 #Install gns3-server dependencies
-dnf -y install python3-PyQt4
+dnf -y install python3-qt5
+dnf -y install redhat-rpm-config
+
 #dnf -y install pycryptopp
 dnf install python3-pip
 python3 -m pip install pycrypto
+python3 -m pip install psutil
+python3 -m pip install raven
+python3 -m pip install paramiko
+
 
 #Clone GitHub repository
 mkdir -p /tmp/install-gns3-gui
