@@ -1,6 +1,6 @@
 # GNS3 Installer Scripts for Fedora - Beta
 
-Tested and working on Fedora 22!
+Tested and working on Fedora 23!
 
 What's included
 ---------------
@@ -9,7 +9,7 @@ What's included
 * gns3-gui
 * vpcs
 * iouyap
-* GUI shortcut
+* GUI shortcut (not working in the last release)
 
 Installation steps
 ------------------
