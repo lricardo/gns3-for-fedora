@@ -17,6 +17,7 @@ dnf -y install python3-zmq
 pip3 install netifaces
 pip3 install docker-py
 pip3 install aiohttp
+pip3 install jinja2
 
 #Clone GitHub repository
 mkdir -p /tmp/build-gns3-server
