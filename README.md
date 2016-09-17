@@ -1,14 +1,19 @@
 # GNS3 Installer Scripts for Fedora - Beta
 
-Tested and working on Fedora 23!
+Tested and working on Fedora 23, 24!
+
+## Warning
+
+There are versions of GNS3 in Fedora's 24, through RPM Fusion. 
+This scripts include dynamips (if you want to use Cisco images) and iouyap.
 
 What's included
 ---------------
-* Dynamips
+* dynamips
+* iouyap
 * gns3-server
 * gns3-gui
 * vpcs
-* iouyap
 * GUI shortcut (not working in the last release)
 
 Installation steps
@@ -29,6 +34,8 @@ You need to configure GNS3 to the following path:
 ```
 /opt/vpcs/src/vpcs
 ```
+
+Note: VPCS is installed from the GNS3 git, which means it's generally more stable than the version which is delivered through some distros.
 
 Missing features
 -----------------
