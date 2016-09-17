@@ -11,7 +11,7 @@ fi
 dnf -y update
 
 # Install dynamips dependencies
-dnf install git bison flex
+dnf -y install git bison flex
 
 cd /tmp
 git clone http://github.com/ndevilla/iniparser.git
