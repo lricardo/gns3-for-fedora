@@ -15,7 +15,9 @@ dnf -y install wget
 cd /tmp
 
 #Download file from the official website
-wget http://www.gns3.com/images/gns3_logo.png
+wget https://avatars0.githubusercontent.com/u/2739187
+
+mv 2739187 gns3_logo.png
 #Dirty fix...
 mv gns3_logo.png /usr/share/icons/hicolor/scalable/apps/
 
