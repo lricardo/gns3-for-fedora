@@ -15,7 +15,7 @@ What's included
 * gns3-server
 * gns3-gui
 * vpcs
-* GUI shortcut (not working in the last release)
+* GUI shortcut
 
 Installation steps
 ------------------
@@ -24,7 +24,7 @@ Installation steps
 ```bash
 $ git clone https://github.com/lricardo/gns3-for-fedora.git
 $ cd gns3-for-fedora
-$ ./aio-install.sh
+# ./aio-install.sh
 ```
 About VPCS
 ----------
